@@ -26,10 +26,22 @@ a{
 .container {
     max-width: 100%;
     margin: 0 auto;
+    padding: 0 25px;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
 }
-  
+
+.main-header a{
+    color: #FF9614;
+    font-size: 35px;
+    line-height: 2em;
+}
+
+@media screen and (width < 768px){
+    .main-header .row{
+        justify-content: center;
+    }
+}
